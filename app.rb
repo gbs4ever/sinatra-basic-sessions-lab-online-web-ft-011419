@@ -17,7 +17,7 @@ erb :index
   post '/checkout' do
     binding.pry
   session[:item] = params[:item]
-  @session = sesion
+  @session = session
     erb :checkout
   end
 
