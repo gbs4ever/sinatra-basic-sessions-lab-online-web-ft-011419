@@ -16,7 +16,7 @@ erb :index
 
   post '/checkout' do
     erb :checkout
-end
+  end
 
 
 
