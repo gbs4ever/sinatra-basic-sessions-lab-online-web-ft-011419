@@ -14,5 +14,5 @@ end
 erb :index
   end
 
-  post '/checkout'
+  post '/checkout' do
 end
